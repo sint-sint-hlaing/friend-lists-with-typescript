@@ -29,7 +29,7 @@ function App() {
   ]);
   return (
     <div className="App">
-      <h1>Friend lists</h1>
+      <h1 className="App-header">Friend lists</h1>
       <List people={people} />
       <AddToList people={people} setPeople={setPeople} />
     </div>
