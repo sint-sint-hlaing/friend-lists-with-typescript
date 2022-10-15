@@ -2,37 +2,69 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.List {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 28rem;
+  margin: 0rem auto;
+  border: 0.1rem solid rgba(0, 0, 0, 0.233);
+  padding: 1rem;
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.List-header {
+  display: flex;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.List-header h2 {
+  color: rgb(37, 36, 36)
+}
+
+ul{
+  padding : 0;
+}
+
+.List-img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  margin-right: 0.5rem;
+}
+
+.List-note {
+  width: 30%;
+  text-align: left;
+}
+
+.AddToList {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 30rem;
+  margin: 5rem auto
+}
+
+.AddToList-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin: 0.3rem 0rem
+}
+
+.AddToList-btn {
+  padding: 0.8rem;
+  margin: 0.3rem 0rem;
+  cursor: pointer;
+  background-color: #1746A2;
+  font-weight: 500;
   color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.AddToList-btn:hover {
+  background-color: #002E94;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
